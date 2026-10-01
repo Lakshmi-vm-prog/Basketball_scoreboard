@@ -14,7 +14,7 @@ body{
 }
 @font-face {
     font-family: 'DSEG7';
-    src: url("../dseg7-classic-latin-400-normal.woff2");
+    src: url("dseg7-classic-latin-400-normal.woff2");
 }
 .box1{
     display: flex;
