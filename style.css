@@ -1,0 +1,73 @@
+body{
+    margin: auto;
+    background-color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 50px;
+    width: 60%;
+    margin: 70px auto;
+    background-color: rgb(3, 26, 62);
+    color: white;
+    border-radius: 20px;
+}
+@font-face {
+    font-family: 'DSEG7';
+    src: url("../dseg7-classic-latin-400-normal.woff2");
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    align-items: center;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    align-items: center;
+}
+#btn1{
+    margin:2px auto 6px auto;
+    padding: 20px 70px;
+    background-color: black;
+    font-family: 'Digital-7', sans-serif;
+    font-size: 100px;
+    border-radius: 5px;
+    color: red;
+}
+#btn2{
+    margin:5px auto 6px auto;
+    padding: 20px 70px;
+    font-family: 'Digital-7', sans-serif;
+    background-color: black;
+    font-size: 100px;
+    border-radius: 5px;
+    color: red;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 50px auto 40px auto;
+}
+
+.buttons button {
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 6px;
+    background-color:   rgb(3, 26, 62);
+    color: white;
+}
+#btn1, #btn2 {
+    font-family: 'DSEG7', sans-serif;
+    font-size: 100px;
+    color: red;
+}
+h2 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
